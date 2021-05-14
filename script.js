@@ -10,7 +10,7 @@ $(document).ready(function(){
 	var url;
 	/*function timer()
 	{
-		url = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyBBeHM3546JghXqisrgurz3eFx03Ue6N-A&id="+channelId + "&part=statistics";
+		url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${Userid}&key=AIzaSyDU5QwdF880P2U1b8ivU5E3pYbm-VPm1d8";
 
 		$.get(url,function(data){
 			console.log(data);
@@ -26,7 +26,7 @@ $(document).ready(function(){
 		//api key: AIzaSyBBeHM3546JghXqisrgurz3eFx03Ue6N-A
 
 		//make a request
-		url = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyBBeHM3546JghXqisrgurz3eFx03Ue6N-A&id="+channelId + "&part=snippet,contentDetails,statistics";
+		url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${Userid}&key=AIzaSyDU5QwdF880P2U1b8ivU5E3pYbm-VPm1d8";
 		//url=https://www.googleapis.com/youtube/v3/channels?part=statistics&id=channelId&key=AIzaSyBBeHM3546JghXqisrgurz3eFx03Ue6N-A
 
 		$.get(url,function(data){
@@ -42,7 +42,7 @@ $(document).ready(function(){
 		//automaticlly fetch the resoponse for us
 					setInterval(function(){
 
-					url = "https://www.googleapis.com/youtube/v3/channels?key=AIzaSyBBeHM3546JghXqisrgurz3eFx03Ue6N-A&id="+channelId + "&part=statistics";
+					url = "https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${Userid}&key=AIzaSyDU5QwdF880P2U1b8ivU5E3pYbm-VPm1d8";
 
 					$.get(url,function(data){
 						console.log(data);
